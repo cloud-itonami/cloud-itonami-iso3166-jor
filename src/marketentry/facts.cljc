@@ -11,13 +11,7 @@
           :rep-provenance "https://www.gtd.gov.jo/"
           :corporate-number-owner-authority "CCD / ISTD"
           :corporate-number-legal-basis "Company registration / tax number"
-          :corporate-number-provenance "https://www.ccd.gov.jo/"}
-   "USA" {:name "United States" :owner-authority "GSA/SAM.gov" :legal-basis "FAR" :national-spec "SAM.gov" :provenance "https://sam.gov/"
-          :required-evidence ["EIN record" "SAM.gov registration record" "State business registration record" "SAM UEI verification record"]}
-   "SAU" {:name "Saudi Arabia" :owner-authority "Etimad" :legal-basis "GTPL" :national-spec "Etimad" :provenance "https://tenders.etimad.sa/"
-          :required-evidence ["CR number" "Etimad registration" "CR extract" "Authorized-representative record"]}
-   "EGY" {:name "Egypt" :owner-authority "e-Tenders" :legal-basis "Law 182/2018" :national-spec "e-Tenders" :provenance "https://etenders.gov.eg/"
-          :required-evidence ["Commercial registry" "e-Tenders registration" "Tax card" "Authorized-representative record"]}})
+          :corporate-number-provenance "https://www.ccd.gov.jo/"}})
 
 (defn spec-basis [iso3] (get catalog iso3))
 (defn coverage
