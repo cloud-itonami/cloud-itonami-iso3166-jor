@@ -3,7 +3,7 @@
 **`:implemented`** for **JOR**. Flagship `jo-entity-missing`, tax `ccd-unverified`.
 
 ```
-clojure -M:dev:test
+kbb -M:dev:test
 ```
 
 AGPL-3.0-or-later.
